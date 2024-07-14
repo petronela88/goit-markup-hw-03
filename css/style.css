@@ -1,8 +1,15 @@
-body {
+.container {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     background-color: #FFFFFF;
     color: #434455;
+    width:1158px;
+    margin: ;
+    padding: ;
+}
+
+ul{
+    list-style-type: none;
 }
 
 .logo {
@@ -22,7 +29,6 @@ span {
 .studio {
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
@@ -40,7 +46,6 @@ span {
 
 .contacte {
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -60,7 +65,6 @@ span {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
@@ -85,13 +89,11 @@ span {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
 .text {
     line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .sectiunea3 {
@@ -102,7 +104,6 @@ span {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;        
 }
@@ -114,7 +115,6 @@ span {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
 }
@@ -130,5 +130,8 @@ span {
 .paragraph {
     color: #F4F4FD;
     line-height: 1.5;
+}
+
+.studio .contacte .business .titlu .text .team .portfolio .paragraph {
     letter-spacing: 0.02em;
 }

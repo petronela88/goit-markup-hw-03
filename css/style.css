@@ -1,0 +1,134 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+span {
+    color: #2e2f42;
+}
+
+.studio {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.studio:hover {
+    color: #404bbf;
+}
+
+.studio:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.contacte {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacte:hover {
+    color: #404bbf;
+}
+
+.contacte:focus {
+    color: #404bbf;
+}
+
+.sectiunea1 {
+    background-color: #2e2f42;
+}
+
+.business {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.buton {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.buton:hover {
+    background-color: #404BBF;
+}
+
+.buton:focus {
+    background-color: #404BBF;
+}
+
+.titlu {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.sectiunea3 {
+    background-color: #F4F4FD;
+}
+
+.team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;        
+}
+
+.people {
+    background-color: #FFFFFF;
+}
+.portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.textchange {
+    color: #F4F4FD;
+}
+
+.paragraph {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}

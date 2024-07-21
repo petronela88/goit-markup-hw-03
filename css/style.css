@@ -1,15 +1,28 @@
-.container {
+body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     background-color: #FFFFFF;
     color: #434455;
     width:1158px;
-    margin: ;
-    padding: ;
+    margin: 0 auto;
+    padding: o 15px;;
 }
 
 ul{
     list-style-type: none;
+}
+
+img {
+    display: block;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
+    display: flex;
+    
 }
 
 .logo {
@@ -121,6 +134,7 @@ span {
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .textchange {
@@ -130,6 +144,7 @@ span {
 .paragraph {
     color: #F4F4FD;
     line-height: 1.5;
+    max-width: 264px;
 }
 
 .studio .contacte .business .titlu .text .team .portfolio .paragraph {

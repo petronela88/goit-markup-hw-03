@@ -17,14 +17,26 @@ img {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between ;
     border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
     display: flex;
-    
+    flex-direction: column;
 }
 
+.links {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;

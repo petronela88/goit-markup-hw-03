@@ -174,18 +174,16 @@ body {
     display: flex;
     gap: 24px;
     margin-right: 24px;
+    width: calc((100%-72px)/4);
 }
 
 .objectivs-list .objectivs-item:last-child {
     margin-right: 0;
 }
 
-.objectivs-item {
-    width: calc((100%-72px)/4);
+.objectivs-item {}
 
-}
-
-.objectivs-item .objectivs-title {
+.objectivs-title {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;

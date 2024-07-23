@@ -181,8 +181,6 @@ body {
     margin-right: 0;
 }
 
-.objectivs-item {}
-
 .objectivs-title {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -202,26 +200,6 @@ body {
     color: var(--color-info);
 }
 
-/*
-.section-objectivs .container {
-    max-width: 1128px;
-    max-height: 104px;
-    padding: 120px 156px;
+.team-section {
+    padding: 120px 0;
 }
-
-.section-objectivs .container .objectivs-list {
-    display: flex;
-}
-
-.objectivs-title {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--color-studio);
-}
-
-.section-objectivs .container .container-objectivs {
-    max-width: 264px;
-}*/

@@ -172,7 +172,7 @@ body {
     display: flex;
     gap: 24px;
     margin-right: 24px;
-    width: calc((100% - 72px) / 4);
+
 
 }
 
@@ -180,7 +180,11 @@ body {
     margin-right: 0;
 }
 
-.objectivs-title {
+.objectivs-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.objectivs-item .objectivs-title {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;

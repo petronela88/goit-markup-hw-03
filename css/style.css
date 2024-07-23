@@ -51,6 +51,10 @@ body {
 }
 
 /* Header */
+.main-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .container {
     max-width: 1158px;
     max-height: 72px;
@@ -165,15 +169,13 @@ body {
 }
 
 .visually-hidden {
-    display: none;
+    visibility: hidden;
 }
 
 .objectivs-list {
     display: flex;
     gap: 24px;
     margin-right: 24px;
-
-
 }
 
 .objectivs-list .objectivs-item:last-child {

@@ -58,12 +58,13 @@ body {
     margin: 0 auto;
     padding: 0 15px;
     background-color: var(--color-background);
-    border: 1px solid #e7e9fc;
+
 }
 
 
 .header-container {
     display: flex;
+    border: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -84,9 +85,13 @@ body {
 }
 
 .header-item {
-    padding: 24px 0;
+
     display: flex;
     gap: 40px;
+}
+
+.header-link {
+    padding: 24px 0;
 }
 
 .header-address {
@@ -126,20 +131,20 @@ body {
 }
 
 .hero-title {
-    text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.02em;
     color: var(--color-background);
-    max-width: 1440px;
-    max-height: 600px;
+    max-width: 496px;
     padding: 188px 472px 292px 472px;
 }
 
 .primary-button {
-
+    display: block;
+    min-width: 169px;
+    height: 56px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -147,10 +152,8 @@ body {
     letter-spacing: 0.04em;
     background-color: var(--color-web);
     color: var(--color-background);
-    width: Hug (169px)px;
-    height: Hug (56px)px;
-    top: 428px;
-    left: 636px;
+    border: none;
+    cursor: pointer;
     padding: 16px 32px 16px 32px;
     gap: 10px;
     border-radius: 4px;

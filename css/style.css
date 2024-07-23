@@ -295,3 +295,22 @@ body {
 }
 
 /* Footer */
+.footer {
+    padding: 100px 0;
+    display: inline-block;
+    background-color: var(--color-studio);
+}
+
+.footer-paragraph {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+    color: #F4F4FD;
+}
+
+.logo-studio-footer {
+    color: #F4F4FD;
+}

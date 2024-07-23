@@ -144,11 +144,13 @@ body {
 }
 
 .primary-button {
+    display: block;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.04em;
+    min-width: 169px;
     background-color: var(--color-web);
     color: var(--color-background);
     border: none;
@@ -156,48 +158,53 @@ body {
     padding: 16px 32px 16px 32px;
     gap: 10px;
     border-radius: 4px;
+}
+
+.section-objectivs {
+    padding: 120px 0;
+    max-width: 1128px;
+    margin-left: 300px;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.objectivs-list {
+    display: flex;
+    gap: 24px;
+    margin-right: 24px;
+}
+
+.objectivs-list .objectivs-item:last-child {
+    margin-right: 0;
+}
+
+.objectivs-item {
+    width: calc((100%-72px)/4);
+
+}
+
+.objectivs-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    color: var(--color-studio);
+}
+
+.objectivs-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--color-info);
 }
 
 /*
-.hero-section {
-    text-align: center;
-    display: flex;
-    max-width: 1440px;
-    margin: 0 auto;
-    background-color: var(--color-studio);
-}
-
-.hero-title {
-    font-family: "Roboto", sans-serif;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0.02em;
-    color: var(--color-background);
-    max-width: 496px;
-    padding: 188px 472px 292px 472px;
-}
-
-.primary-button {
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-    background-color: var(--color-web);
-    color: var(--color-background);
-    border: none;
-    cursor: pointer;
-    padding: 16px 32px 16px 32px;
-    gap: 10px;
-    border-radius: 4px;
-    opacity: 0px;
-
-}
-*/
 .section-objectivs .container {
     max-width: 1128px;
     max-height: 104px;
@@ -219,4 +226,4 @@ body {
 
 .section-objectivs .container .container-objectivs {
     max-width: 264px;
-}
+}*/

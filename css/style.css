@@ -52,17 +52,17 @@ body {
     font-family: "Robot", sans-serif;
 }
 
+
+
 .container {
     max-width: 1158px;
     max-height: 72px;
     margin: 0 auto;
     padding: 0 15px;
-    background-color: var(--color-background);
-
 }
 
 
-.header-container {
+.main-header>.header-container {
     display: flex;
     border: 1px solid #e7e9fc;
 }
@@ -74,7 +74,6 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-
     display: flex;
     align-items: center;
 }
@@ -124,6 +123,44 @@ body {
 }
 
 .hero-section {
+    padding: 188px 0;
+    background-color: var(--color-studio);
+    color: var(--color-background);
+    max-width: 1158px;
+}
+
+.section {
+    display: flex;
+    margin-left: 266px;
+}
+
+.hero-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+}
+
+.primary-button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    background-color: var(--color-web);
+    color: var(--color-background);
+    border: none;
+    cursor: pointer;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+/*
+.hero-section {
+    text-align: center;
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
@@ -160,7 +197,7 @@ body {
     opacity: 0px;
 
 }
-
+*/
 .section-objectivs .container {
     max-width: 1128px;
     max-height: 104px;

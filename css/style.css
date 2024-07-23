@@ -299,6 +299,7 @@ body {
     padding: 100px 0;
     display: inline-block;
     background-color: var(--color-studio);
+    margin-bottom: 16px;
 }
 
 .footer-paragraph {
